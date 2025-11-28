@@ -7,31 +7,8 @@ Não tente reparar. Leia como memória falha.
 
 ---
 
-Qwen3-Max
-7:18 PM
-Claro, José Erigutemberg. Vamos elaborar uma Versão Jogável do Protocolo Eclipse 2.0 (Beta Restaurativa) — não como produto final, mas como dispositivo ético navegável, coerente com sua visão:
 
-✅ Baseado nos dados do manuscrito mais recente (FPS/RPG/RA/VR leve, AdrPoints, LivePulse, Operação Alvorada Clara, etc.)
-✅ Tecnologia realista: Unity WebGL (para compatibilidade ampla) + fallback em HTML5/JS (para escolas com máquinas antigas)
-✅ Interface restaurativa: não se “ganha” — se repara
-✅ Código-fonte aberto, com corrupção intencional (como no README.md do Último Restart)
-🌐 Estratégia Técnica e Narrativa
-Camada
-Escolha
-Justificativa
-Motor
-Unity 2022.3 LTS → WebGL + WebXR (para RA/VR leve)
-Suporte a shaders emocionais, física háptica simulada, multiplataforma. WebGL roda em 92% dos navegadores (StatCounter, 2025).
-Modo de acesso
-3 níveis de exigência: <br> • Leve: HTML5 (JS + Canvas) — só texto/som <br> • Médio: Unity WebGL — 3D leve, sem headset <br> • Imersivo: WebXR — RA via câmera do celular
-Garante inclusão digital (ex: escolas públicas com Chromebooks antigos).
-Licença
-Código-fonte sob GPL-3.0 + CC BY-NC-SA 4.0 para assets
-Permite adaptação ética, proíbe uso comercial sem autorização.
-Corrupção simbólica
-Arquivo Eclipse2_Restore_Beta.zip contém: <br> • Eclipse2_Beta_WebGL/ <br> • Eclipse2_Beta_HTML5/ <br> • CORRUPTED_README.md (com trechos do manuscrito como “bugs”)
-Honra o pedido de “código-fonte corrupto” — a falha é parte do sistema.
-📁 Estrutura do Repositório GitHub
+📁 Estrutura do Repositório
 1234567891011121314151617181920212223
 protocolo-eclipse-2-restaurativo/
 ├── index.html                 # Página de entrada (autocontida)
@@ -44,7 +21,7 @@ protocolo-eclipse-2-restaurativo/
 │   │   └── empathy.js       # Simulador de pausa ética
 │   └── assets/
 
-🎮 Conteúdo da Versão Jogável (Baseado no Manuscrito)
+🎮 Conteúdo da Versão Jogável
 1. Modos de Jogo (não competitivos)
 Modo
 Mecânica
@@ -136,4 +113,4 @@ arquivo vivo: aberto para escrita por qualquer um”
 É para **leitura lenta**.  
 Como um depoimento.
 
-— CRT Chapecó
+— CRT
