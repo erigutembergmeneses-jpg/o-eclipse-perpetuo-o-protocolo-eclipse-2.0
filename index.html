@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protocolo Eclipse 2.0 — Beta Restaurativa</title>
+  <meta name="description" content="Versão jogável restaurativa do Protocolo Eclipse 2.0. Não para vencer. Para reparar.">
+  <style>
+    :root {
+      --cinza-ardosia: #2c3e50;
+      --verde-reparacao: #10b981;
+      --azul-crt: #3b82f6;
+      --fonte-titulo: 'IBM Plex Mono', monospace;
+      --fonte-corpo: 'Spectral', serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: var(--fonte-corpo);
+      line-height: 1.7;
+      color: #2d3748;
+      background: #fafbfc;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--verde-reparacao);
+    }
+    h1 {
+      font-family: var(--fonte-titulo);
+      font-size: 1.9rem;
+      color: var(--cinza-ardosia);
+    }
+    .manjericão {
+      font-size: 2.4rem;
+      margin: 1rem 0;
+      color: var(--verde-reparacao);
+    }
+    .aviso {
+      background: #fff8e6;
+      border-left: 4px solid #f59e0b;
+      padding: 1.2rem;
+      border-radius: 4px;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .modo {
+      background: white;
+      padding: 1.6rem;
+      margin-bottom: 1.6rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border-left: 4px solid var(--azul-crt);
+    }
+    .modo h3 {
+      font-family: var(--fonte-titulo);
+      color: var(--cinza-ardosia);
+      margin-bottom: 0.8rem;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--verde-reparacao);
+      color: white;
+      text-decoration: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 6px;
+      font-family: var(--fonte-titulo);
+      font-size: 0.95rem;
+      margin-top: 0.8rem;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.9; }
+    .corrompido {
+      font-family: var(--fonte-titulo);
+      font-size: 0.85rem;
+      color: #e53e3e;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px dashed #e2e8f0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: #718096;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Protocolo Eclipse 2.0 — Beta Restaurativa</h1>
+      <div class="subtitulo">“Jogue para reconstruir. Não para vencer.”</div>
+      <div class="manjericão">🌿</div>
+    </header>
+
+    <div class="aviso">
+      <strong>Atenção:</strong> Esta é uma versão ética experimental.  
+      Não requer headset. Funciona em qualquer navegador.  
+      Recomenda-se: fones de ouvido, 5 minutos, e uma promessa não cumprida.
+    </div>
+
+    <div class="modo">
+      <h3>🎮 Survival Mode: Pós-Silêncio</h3>
+      <p>Reduza o “ruído” em NPCs através da <em>escuta ativa</em>. Cada nível restaura uma memória coletiva apagada.</p>
+      <a href="./Eclipse2_Beta_WebGL/" class="btn">▶️ Jogar (WebGL)</a>
+      <a href="./Eclipse2_Beta_HTML5/" class="btn" style="background:#3b82f6; margin-left:0.5rem;">▶️ Versão Leve (HTML5)</a>
+    </div>
+
+    <div class="modo">
+      <h3>🤝 RPG Restaurativo</h3>
+      <p>Construa alianças com NPCs neurodivergentes. Progrida com <em>Pontos de Coerência</em> — não com upgrades de dano.</p>
+      <a href="./Eclipse2_Beta_WebGL/?mode=rpg" class="btn">▶️ Jogar (WebGL)</a>
+      <a href="./Eclipse2_Beta_HTML5/?mode=rpg" class="btn" style="background:#3b82f6; margin-left:0.5rem;">▶️ Versão Leve</a>
+    </div>
+
+    <div class="modo">
+      <h3>👥 SocialSim (4 jogadores)</h3>
+      <p>Cada ação exige <em>reparação prévia</em>. O sistema não julga — apenas pergunta: <em>“Como você vai consertar isso?”</em></p>
+      <a href="./Eclipse2_Beta_WebGL/?mode=social" class="btn">▶️ Jogar (WebGL)</a>
+      <a href="./Eclipse2_Beta_HTML5/?mode=social" class="btn" style="background:#3b82f6; margin-left:0.5rem;">▶️ Versão Leve</a>
+    </div>
+
+    <div class="corrompido">
+      <p><strong>CORRUPTED_README.md</strong> (trecho):</p>
+      <p><em>“O bug não está no sistema. Está na suposição de que justiça é reset.  
+      O verdadeiro protocolo é:  
+      while (há dor) {  
+        listen();  
+        acknowledge();  
+        repair();  
+        // nunca break;  
+      }”</em></p>
+      <a href="./CORRUPTED_README.md" download class="btn" style="background:#e53e3e;">💾 Baixar arquivo corrompido</a>
+    </div>
+
+    <footer>
+      <p>© 2025 José Erigutemberg Meneses de Lima<br>
+      Baseado em <em>O Eclipse Perpétuo</em> e no trabalho do Centro de Reparação Sem Tempo<br>
+      Licença: GPL-3.0 + CC BY-NC-SA 4.0</p>
+    </footer>
+  </div>
+</body>
+</html>
+
